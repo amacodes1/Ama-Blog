@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kanit:ital,wght@0,300;0,400;1,300;1,400&family=Lumanosimo&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Hover styles for links */
+.linkIcon {
+  @apply text-white/90 hover:text-white
+}
+
+.linkCat {
+  @apply text-white/90 hover:text-white justify-self-center ms-14 lg:ms-20 font-web
+}
+
+footer h2::after {
+  @apply content-none block h-px w-32 absolute left-0 bottom-0 bg-white
+}
